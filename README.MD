@@ -1,6 +1,6 @@
 illuminate - Case Study
 =======================
-simple example for illuminate router and dispatcher
+simple example for illuminate router, dispatcher and database
 
 - app starts at [public/index.php]
 - loads all dependencies in [app/services]
@@ -9,7 +9,7 @@ simple example for illuminate router and dispatcher
   - illuminate/container
   - illuminate/routing
   - illuminate/events
- 
+  - illuminate/database[illuminate/app/classes/Controllers/HomeController.php]
  
 !!!!!remember to use phpdotenv package for loading environment variables from `.env` to `getenv()!!!!
 
